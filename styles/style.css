@@ -11,11 +11,16 @@
     background: #E5E5E5;
 }
 
-.container img {
-    position: absolute;
-    width: 10%;
-    height: 5%;
+.logo {
+    position: relative;
+    width: 120px;
+    height: 48px;
     top: 2%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .texto {
